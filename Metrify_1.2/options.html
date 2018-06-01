@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Metrify Options</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Metrify Extension Options Page">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+ <label>
+  Highlight converted units
+ <input type="checkbox" id="isLight">
+ </label>
+
+ </br>
+
+  Highlight color:
+ <select id="color">
+ <option value="yellow" style="background-color:#ffe000;color:#ff5c5c;">yellow</option>
+ <option value="red" style="background-color:#ff5c5c;color:#ffe000;">red</option>
+ </select>
+
+ <br>
+<br>
+ <div id="status"></div>
+
+ <br>
+
+ <button id="save">Save</button>
+
+ <p>Bug? Feedback? Feature request? Email: dev.mero11@gmail.com</p>
+
+ <script src="options.js"></script>
+ <style>
+ body{
+ font-family: 'Montserrat', Verdana ,sans-serif;
+ text-align: center;
+ }
+ textarea, input, button, select{ font-family: inherit; font-size: inherit; }
+ </style>
+
+</body>
+</html>
